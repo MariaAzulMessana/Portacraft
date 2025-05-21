@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto | Portacraft</title>
+
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="../styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="../images/Logo.jpg" alt="Logo de Portacraft" />
+      <h1>Portacraft</h1>
+    </div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <!-- Ícono del menú hamburguesa -->
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="testimonios.html">Testimonios</a></li>
+        <li><a href="about-us.html">Conócenos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contacto">
+    <h2>Contáctanos</h2>
+    <p class="intro">¿Tienes dudas o sugerencias? Completa el formulario y nos pondremos en contacto contigo.</p>
+
+    <div class="contacto-grid">
+      <form class="formulario-contacto" action="#" method="post">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+
+      <div class="info-contacto">
+        <h3>También podés escribirnos a:</h3>
+        <p><i class="fas fa-envelope"></i> contacto@portacraft.com</p>
+        <p><i class="fas fa-phone"></i> +54 11 1234-5678</p>
+        <p><i class="fas fa-clock"></i> Lunes a Viernes de 9 a 18hs</p>
+
+        <div class="redes-sociales">
+          <h4>Seguinos en redes</h4>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="faq.html">FAQs</a>
+      <a href="testimonios.html">Testimonios</a>
+      <a href="about-us.html">Conócenos</a>
+    </nav>
+    <p>&copy; 2025 Portacraft</p>
+  </footer>
+
+</body>
+</html>
