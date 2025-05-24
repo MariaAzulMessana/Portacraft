@@ -49,10 +49,10 @@ Diseño y estilo :
 ---
 
 URL del sitio publicado :  
-https://mariaazulmessana.github.io/Portacraft/
+https://portacraft.wuaze.com/index.html
 
 Repositorio de GitHub  
-https://github.com/MariaAzulMessana/Portacraft
+https://mariaazulmessana.github.io/Portacraft/
 
 ---
 
